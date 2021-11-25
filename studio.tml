@@ -26,59 +26,7 @@
  </header>
 
  <main> 
-<section>
-<h1>Портфолио</h1>
-<div>
-<button type="button">Все</button>
-<button type="button">Веб-сайты</button>
-<button type="button">Приложения</button>
-<button type="button">Дизайн</button>
-<button type="button">Маркетинг</button>
 
-</div>
-
-<!--- Работа--->
-
-
-
-<ul>
- <li>
-   <a href="texno.html">
-<img src="./images/texno.png" alt="Технокряк" width="370"></a>
-<h2>Технокряк</h2>
-<p>Веб-сайт</p>
-</li>
-<li>
-  <a href="постер.html">
-  <img src="./images/постер.png" alt="Постер New Orlean vs Golden Star" width="370"></a>
-<h2>Постер New Orlean vs Golden Star</h2>
-<p>Дизайн</p> </li>
-
-
-<li>
-  <a href="ресторан.html">
-<img src="./images/ресторан.png" alt="Ресторан Seafood" width="370"></a> 
-<h2>Ресторан Seafood</h2>
-<p>Приложение</p>
-</li>
-</ul>
-
-<li>
-  <a href="наушники.html">
-  <img src='./images/наушники.png' alt="Проект Prime" width="370"></a>
-  <h2>Проект Prime</h2>
-  <p>Маркетинг</p></li>
-  <li>
-<a href="проект.html">
-  <img src="./images/проект.png" alt="Проект" width="370"></a>
-<h2>Проект Boxes</h2>
-<p>Приложение</p>
-
-  </li>
-
-
-
-</section>
 
     
  </main>
