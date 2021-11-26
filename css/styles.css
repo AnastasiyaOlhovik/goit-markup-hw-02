@@ -1,0 +1,39 @@
+/*Цвет основного текста color: #212121; */
+/* цвет вторичного текста #757575;*/
+/*акцент #2196F3;*/
+
+
+.logo{
+font-family: Raleway, sans-serif;
+font-size: 26px
+Line-height:1.19px
+Align: Left
+Letter spacing: 0.3em;
+color: #2196f3 ;
+text-decoration: none;
+
+
+.logo-second {
+font-family: Raleway,sans-serif;
+font-size: 26px
+Line-height: 1.19px
+Align: Left
+Letter spacing: 0.3em;
+color: var (--litle-text-color)}
+
+/*Site-nav*/
+
+.site-nav.link  {
+    color: #2196f3;
+}
+
+
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.site-nav .link:hover
+.site-nav .link:focus{
+    color:#212121
+}
