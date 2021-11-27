@@ -1,3 +1,4 @@
+
 /*Цвет основного текста color: #212121 */
 /* цвет вторичного текста #757575 */
 /*акцент #2196F3 */
@@ -12,18 +13,124 @@
 
 
 
-.body{ 
-font-family: Roboto, sans-serif;
-background-color: #FFFFFF;
+body{ 
+    font-family: Roboto, sans-serif;
+    background-color: #FFFFFF;
+    }
+
+    /* Основной сайт*/
+
+    .menu-nav .menu-nav-title {
+        font-family: Roboto, sans-serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing:0.02;
+        color:var(--primary-text-color)
+
+    }
+    
+    .menu-nav .menu-nav-title:hover,
+    .menu-nav .menu-nav-title:focus{
+        color: var(--accent-color);
+
+    }
+    .nav-contact {
+    font-family: Roboto, sans-serif;
+    font-style:500;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 2%;
+    color: var(--title-text-color)    }
+
+    .nav-contact:hover,
+    .nav-contact:focus{
+        color: var(--accent-color);}
+
+
+    .header-button .header-page {
+    font-family: Roboto, sans-serif;
+    font-style:900;
+    font-size: 44px;
+    line-height:1.4;
+    letter-spacing: 0.06;
+    color:var(--primary-text-color);
+    text-align: center
+}    
+
+.header-button .button-header {
+    font-family: Roboto, sans-serif;
+    font-style:700;
+    font-size: 16px;
+    line-height:1.8;
+    letter-spacing:  0.06
+    var(--primary-text-color);
+}
+
+.feature {
+    font-family: Roboto, sans-serif;
+    font-style:700;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing:  0.03
+    var(--primary-text-color)
+}
+.feature-text{
+    font-family: Roboto, sans-serif;
+    font-style:400;
+    font-size: 14px;
+    line-height:1.7;
+    letter-spacing:  0.03;
+    color: var(--title-text-color);}
+
+.box-header{
+    font-family: Roboto, sans-serif;
+    font-style:700;
+    font-size: 36px;
+    line-height:1.16;
+    letter-spacing:  0.03;
+    text-align: center
+}
+
+.team-header{
+    font-family: Roboto, sans-serif;
+    font-style:700;
+    font-size: 36px;
+    line-height:1.16;
+    letter-spacing:  0.03;
+    text-align: center
+
+}
+
+.team { 
+    font-family: Roboto, sans-serif;
+    font-style:500;
+    font-size: 16px;
+    line-height:1.18;
+    letter-spacing:  0.03;
+    color:var(--primary-text-color);
+
+}
+
+.team-text {
+    font-family: Roboto, sans-serif;
+    font-style:400;
+    font-size: 16px;
+    line-height:1.18;
+    letter-spacing:  0.03;
+    color: var(--title-text-color);
+
 }
 
 /*Logo*/
 
 .logo {
 font-family: Raleway, sans-serif;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.19;
-color: var( --accent-color)
+color: var( --accent-color);
+letter-spacing: 0.03;
 }
 
 .logo-second {
@@ -43,9 +150,11 @@ ul{
 
 .site-nav .link {
 font-family: Roboto, sans-serif;
+font-weight: 500;
 font-size: 14px;
 line-height:1.14;
 color: var(--primary-text-color);
+letter-spacing: 0.02;
 }
 
 .site-nav .link:hover
@@ -56,19 +165,24 @@ color: var(--primary-text-color);
 
 .contact-nav a {
 font-family: Roboto, sans-serif;
+font-weight: 500;
 font-size: 14px;
 line-height:1.14;
 color: var(--title-text-color);
+letter-spacing:  0.02;
 }
 
 /*Portfolio*/
 
 .filter{
-font-family: Roboto, sans-serif;
-font-size: 16px;
-line-height:1.62;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.62;
+    letter-spacing:  0.03;
+    cursor: pointer;}
 
-}
+
 
 
 .filter:hover
@@ -79,20 +193,26 @@ line-height:1.62;
 
 .title{
 font-family: Roboto, sans-serif;
+font-weight: 700;
 font-size: 18px;
 line-height: 2;
 color: var(--primary-text-color);
+letter-spacing: 0.06 ;
 }
 .element .title{
     color: var(--primary-text-color);
 }
 
 .project{
-font-family: Roboto, sans-serif;
+ font-family: Roboto, sans-serif;
+font-weight: 400;   
 font-size: 16px;
 line-height:1.87;
 color: var(--title-text-color);
+letter-spacing: 0.03;
 }
+
+
 
 .element .project {
     color: var(--title-text-color);
@@ -101,9 +221,10 @@ color: var(--title-text-color);
 /*Footer*/
 
 .contact{
-    font-family: Roboto,sans-serif;
-    font-size: 14px
-    Line height: 1.7em;
-}
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03 ;}
 
 
