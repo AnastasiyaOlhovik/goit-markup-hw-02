@@ -1,39 +1,109 @@
-/*Цвет основного текста color: #212121; */
-/* цвет вторичного текста #757575;*/
-/*акцент #2196F3;*/
+/*Цвет основного текста color: #212121 */
+/* цвет вторичного текста #757575 */
+/*акцент #2196F3 */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color:#757575;
+    --accent-color: #2196f3;
+    --primary-bg-color:#F5F4FA;
+}
 
 
-.logo{
+
+
+.body{ 
+font-family: Roboto, sans-serif;
+background-color: #FFFFFF;
+}
+
+/*Logo*/
+
+.logo {
 font-family: Raleway, sans-serif;
-font-size: 26px
-Line-height:1.19px
-Align: Left
-Letter spacing: 0.3em;
-color: #2196f3 ;
-text-decoration: none;
-
+font-size: 26px;
+line-height: 1.19;
+color: var( --accent-color)
+}
 
 .logo-second {
-font-family: Raleway,sans-serif;
-font-size: 26px
-Line-height: 1.19px
-Align: Left
-Letter spacing: 0.3em;
-color: var (--litle-text-color)}
+color: #000000;
+}
 
-/*Site-nav*/
-
-.site-nav.link  {
-    color: #2196f3;
+ul{ 
+    list-style: none;
 }
 
 
-li{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+
+/* СТИЛИ PORTFOLIO*/
+
+
+/*Site nav*/
+
+.site-nav .link {
+font-family: Roboto, sans-serif;
+font-size: 14px;
+line-height:1.14;
+color: var(--primary-text-color);
 }
+
 .site-nav .link:hover
-.site-nav .link:focus{
-    color:#212121
+,.site-nav .link:focus{
+    color:var(--accent-color); 
 }
+
+
+.contact-nav a {
+font-family: Roboto, sans-serif;
+font-size: 14px;
+line-height:1.14;
+color: var(--title-text-color);
+}
+
+/*Portfolio*/
+
+.filter{
+font-family: Roboto, sans-serif;
+font-size: 16px;
+line-height:1.62;
+
+}
+
+
+.filter:hover
+,.filter:focus{
+
+   background-color: var(--accent-color);
+}
+
+.title{
+font-family: Roboto, sans-serif;
+font-size: 18px;
+line-height: 2;
+color: var(--primary-text-color);
+}
+.element .title{
+    color: var(--primary-text-color);
+}
+
+.project{
+font-family: Roboto, sans-serif;
+font-size: 16px;
+line-height:1.87;
+color: var(--title-text-color);
+}
+
+.element .project {
+    color: var(--title-text-color);
+}
+
+/*Footer*/
+
+.contact{
+    font-family: Roboto,sans-serif;
+    font-size: 14px
+    Line height: 1.7em;
+}
+
+
