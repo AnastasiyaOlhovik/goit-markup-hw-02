@@ -15,8 +15,10 @@
 
 body{ 
     font-family: Roboto, sans-serif;
-    background-color: #FFFFFF;
-    }
+    font-size:14px;
+    background-color: var(--primary-text-color#212121);
+    color:var (--primary-bg-color#F5F4FA)
+}
     
 /*Logo*/
 
@@ -26,7 +28,7 @@ body{
     font-size: 26px;
     line-height: 1.19;
     color: var( --accent-color);
-    letter-spacing: 0.03;
+    text-decoration: none;
     }
     
     .logo-second {
@@ -41,13 +43,10 @@ body{
     /* Основной сайт*/
 
     .menu-nav .menu-nav-title {
-        font-family: Roboto, sans-serif;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing:0.02;
-        color:var(--primary-text-color)
-
+        font-weight:500;
+        line-height:1.14;
+        color:var(--primary-text-color);
+        text-decoration: none;
     }
     
     .menu-nav .menu-nav-title:hover,
@@ -56,12 +55,10 @@ body{
 
     }
     .nav-contact {
-    font-family: Roboto, sans-serif;
-    font-style:500;
-    font-size: 14px;
+    font-style: 500;
     line-height:1.14;
-    letter-spacing: 2%;
-    color: var(--title-text-color)    }
+    color: var(--title-text-color);
+    text-decoration: none;    }
 
     .nav-contact:hover,
     .nav-contact:focus{
@@ -69,76 +66,57 @@ body{
 
 
     .header-button .header-page {
-    font-family: Roboto, sans-serif;
-    font-style:900;
-    font-size: 44px;
-    line-height:1.4;
-    letter-spacing: 0.06;
+    font-style: 900;
+    font-size:44px;
+    line-height: 1.4;
     color:var(--primary-text-color);
     text-align: center
 }    
 
 .header-button .button-header {
-    font-family: Roboto, sans-serif;
-    font-style:700;
+    
     font-size: 16px;
-    line-height:1.8;
-    letter-spacing:  0.06
-    var(--primary-text-color);
+    line-height: 1.8;
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
 }
 
 .feature {
-    font-family: Roboto, sans-serif;
-    font-style:700;
-    font-size: 14px;
-    line-height:1.14;
-    letter-spacing:  0.03
-    var(--primary-text-color)
+    font-style: 700;
+    line-height: 1.14;
+    color: var(--primary-text-color)
 }
 .feature-text{
-    font-family: Roboto, sans-serif;
-    font-style:400;
-    font-size: 14px;
-    line-height:1.7;
-    letter-spacing:  0.03;
-    color: var(--title-text-color);}
+    font-style: 400;
+    line-height: 1.7;
+    color:var(--title-text-color);
+}
 
 .box-header{
-    font-family: Roboto, sans-serif;
-    font-style:700;
-    font-size: 36px;
+    font-size:36px;
     line-height:1.16;
-    letter-spacing:  0.03;
-    text-align: center
+    text-align: center;
 }
 
 .team-header{
-    font-family: Roboto, sans-serif;
-    font-style:700;
-    font-size: 36px;
+    font-size:36px;
     line-height:1.16;
-    letter-spacing:  0.03;
-    text-align: center
-
+    text-align: center;
 }
 
 .team { 
-    font-family: Roboto, sans-serif;
-    font-style:500;
+    font-style: 500;
     font-size: 16px;
     line-height:1.18;
-    letter-spacing:  0.03;
-    color:var(--primary-text-color);
+    color: var(--primary-text-color);
 
 }
 
 .team-text {
-    font-family: Roboto, sans-serif;
-    font-style:400;
+    font-style: 400;
     font-size: 16px;
     line-height:1.18;
-    letter-spacing:  0.03;
-    color: var(--title-text-color);
+    color:var(--title-text-color);
 
 }
 
@@ -155,23 +133,24 @@ font-weight: 500;
 font-size: 14px;
 line-height:1.14;
 color: var(--primary-text-color);
-letter-spacing: 0.02;
+text-decoration: none;
 }
 
 .site-nav .link:hover
 ,.site-nav .link:focus{
-    color:var(--accent-color); 
+color:var(--accent-color); 
 }
 
-
-.contact-nav a {
+.contact-nav a{
 font-family: Roboto, sans-serif;
-font-weight: 500;
-font-size: 14px;
-line-height:1.14;
+font-weight: 500;    
+font-weight:500;
+line-height: 1.14;
 color: var(--title-text-color);
 letter-spacing:  0.02;
+text-decoration: none;
 }
+
 
 /*Portfolio*/
 
@@ -180,16 +159,12 @@ letter-spacing:  0.02;
     font-weight: 500;
     font-size: 16px;
     line-height:1.62;
-    letter-spacing:  0.03;
-    cursor: pointer;}
+    cursor: pointer; }
 
-
-
-
-.filter:hover
-,.filter:focus{
-
-   background-color: var(--accent-color);
+.filter:hover,
+.filter:focus{
+color: var(--primary-bg-color);
+background-color: var(--accent-color);
 }
 
 .title{
@@ -197,8 +172,7 @@ font-family: Roboto, sans-serif;
 font-weight: 700;
 font-size: 18px;
 line-height: 2;
-color: var(--primary-text-color);
-letter-spacing: 0.06 ;
+color:var(--primary-text-color);
 }
 .element .title{
     color: var(--primary-text-color);
@@ -209,9 +183,7 @@ letter-spacing: 0.06 ;
 font-weight: 400;   
 font-size: 16px;
 line-height:1.87;
-color: var(--title-text-color);
-letter-spacing: 0.03;
-}
+color: var(--title-text-color);}
 
 
 
@@ -221,11 +193,8 @@ letter-spacing: 0.03;
 
 /*Footer*/
 
-.contact{
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03 ;}
-
+.contact .litter-contact{
+line-height: 24px;
+line-height: 1.70;
+letter-spacing:0.03}
 
