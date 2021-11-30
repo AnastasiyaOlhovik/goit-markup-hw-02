@@ -175,24 +175,30 @@ color: var(--primary-bg-color);
 background-color: var(--accent-color);
 }
 
-.title{
+
+
+.title {
 font-weight:700;
 font-size: 18px;
 line-height:2;
 text-decoration:none;
 }
 
+
+.element-van {
+    text-decoration: none;
+}
 .element .title{
     color: var(--primary-text-color);
 }
 
-.project{
+.project {
  font-family: Roboto, sans-serif;
 font-weight: 400;   
 font-size: 16px;
 line-height:1.87;
 color: var(--title-text-color);
-text-decoration:none;}
+text-decoration: none;}
 
 
 
@@ -202,9 +208,12 @@ text-decoration:none;}
 
 /*Footer*/
 
-.contact .litter-contact{
-line-height: 24px;
-line-height: 1.70;
-letter-spacing:0.03em;
-text-decoration:none;}
-
+.litter-contact{
+    line-height: 24px;
+    line-height: 1.70;
+    letter-spacing:0.03em;
+    text-decoration: none;
+    font-style: normal;
+}
+    
+    
